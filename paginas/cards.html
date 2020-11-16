@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Cards</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/cards.css">
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/cards-parallax.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-superior" aria-controls="menu-superior" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu-superior">
+					<a class="navbar-brand" href="#"><i class="fa fa-crosshairs fa-2x" style="color: white;"></i></a>
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="lorem.html">Lorem</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="links-uteis.html">Links</a>
+                        </li>
+                        <li class="nav-item">
+							<a class="nav-link" href="botoes.html">Botoes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sessoes.html">Sessoes</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Cards</a>
+						</li>
+					</ul>
+				</div>
+			  </nav>
+        </header>
+        
+        <!-- cards -->
+		<section class="cards mt-5 mb-5">
+			<h1 class="text-center">Cards</h1>
+			<div class="container">
+				<div class="row">
+					<!-- CARD 1 -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<!-- Image Fundo -->
+						  <div class="card card1 card1-imagem mb-4 mt-4">
+							<!-- Conteudo -->
+							<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5">
+								<div>
+									<h3 class="card-title pt-2"><strong>Title</strong></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<a class="btn_card1" href="#" data-toggle="modal" data-target="#card1"><i class="fa fa-plus left"></i> Codigo</a>
+								</div>
+							</div>
+						  </div>
+						  <!-- Modal -->
+						  <div class="modal fade" id="card1" tabindex="-1" role="dialog" aria-labelledby="card1Label" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark">
+                                        <h5 class="modal-title text-white" id="card1Label">Codigo fonte</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true" style="color: white;">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <embed src="../codigos-txt/cards/card-1.txt" width="450" height="300">
+                                    </div>
+                                    <div class="modal-footer bg-dark">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+					</div>
+					<!-- CARD 1 -->
+					<!-- CARD 2 -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card card2 border border-dark">
+							<!-- Card imagem -->
+							<div class="">
+								<img class="card-img-top" src="../img/hamburger.jpg" alt="Card image cap">
+							</div>
+							<!-- Card conteudo -->
+							<div class="card-body">
+								<!-- Titulo -->
+								<h4 class="card-title font-weight-bold"><a>Restaurant</a></h4>
+								<!-- Avaliacao -->
+								<ul class="list-unstyled list-inline rating mb-0">
+									<li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star-half"></i></li>
+									<li class="list-inline-item"><p class="text-muted">4.5</p></li>
+								</ul>
+								<p class="mb-2">$ • American, Restaurant</p>
+								<!-- Texto -->
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<!-- Botao -->
+								<a href="#" class="btn-card2 text-center" data-toggle="modal" data-target="#card2">Codigo</a>
+							</div>
+						</div>
+						<!-- CARD 2 -->
+						<!-- Modal -->
+						<div class="modal fade" id="card2" tabindex="-1" role="dialog" aria-labelledby="card2Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card2Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-2.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!--CARD 3-->
+					<div class="col-12 col-md-6 col-lg-3">
+		    		    <div class="card card3 border border-secondary">
+		    		        <div class="background-block">
+		    		            <img src="../img/paisagem.jpeg" alt="card3-sample1" class="background"/>
+		    		        </div>
+		    		        <div class="card3-thumb-block">
+		    		            <img src="../img/user-avatar.jpg" alt="card3-image" class="profile"/>
+		    		        </div>
+		    		        <div class="card-content">
+			                    <h2>Username<small>Role</small></h2>
+			                    <div class="icon-block">
+			                    	<a href="#"><i class="fa fa-facebook"></i></a>
+			                    	<a href="#"><i class="fa fa-twitter"></i></a>
+			                    	<a href="#"><i class="fa fa-google-plus"></i></a>
+								</div>
+								<a href="#" data-toggle="modal" data-target="#card3">Codigo</a>
+		                    </div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="card3" tabindex="-1" role="dialog" aria-labelledby="card3Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card3Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-3.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+			    	</div>
+			    	<!--CARD 3-->
+					<!-- CARD 4 -->
+			    	<div class="col-12 col-md-6 col-lg-3">
+						<!-- Imagem fundo -->
+						  <div class="card card4-imagem mb-4 mt-4 text-white">
+							<!-- Conteudo -->
+							<div class="card-title text-center"><h3>Title</h3></div>
+							<div class="card-body text-center">
+								<div class="btn4">
+									<a href="#" class="btn-card4" data-toggle="modal" data-target="#card4"><i class="fa fa-android fa-2x"></i></a>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						  </div>
+						  <!-- Modal -->
+						<div class="modal fade" id="card4" tabindex="-1" role="dialog" aria-labelledby="card4Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card4Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-4.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!-- CARD 4 -->
+				</div>
+			</div>
+
+		<!-- Cards Parallax -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4">
+						<!-- Card Parallax 1 -->
+						<div class="card-parallax-1">
+							<div class="content1">
+								<h3 class="depth-8 text-white">HOVER</h3>
+								<p class="depth-4"><a href="#" class="btn_card_parallax" data-toggle="modal" data-target="#cp-1">Button</a></p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="cp-1" tabindex="-1" role="dialog" aria-labelledby="cp-1Label" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header bg-dark">
+									<h5 class="modal-title text-white" id="cp-1Label">Codigo fonte</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true" style="color: white;">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<embed src="../codigos-txt/cards/card-parallax-1.txt" width="450" height="300">
+								</div>
+								<div class="modal-footer bg-dark">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Modal -->
+						<!-- Card Parallax 1 -->
+					</div>
+					<div class="col-12 col-lg-4">
+						<!-- Card Parallax 2 -->
+						<div class="card-parallax-2">
+							<div class="content2">
+								<h3 class="depth-8 text-white">HOVER</h3>
+								<p class="depth-4"><a href="#" class="btn_card_parallax" data-toggle="modal" data-target="#cp-2">Button</a></p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="cp-2" tabindex="-1" role="dialog" aria-labelledby="cp-2Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="cp-2Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-parallax-2.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+						<!-- Card Parallax 2 -->
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="card-parallax-3">
+							<!-- Card Parallax 3 -->
+							<div class="content3">
+								<h3 class="depth-8 text-white">HOVER</h3>
+								<p class="depth-4"><a href="#" class="btn_card_parallax" data-toggle="modal" data-target="#cp-3">Button</a></p>
+							</div>
+							
+							<!-- Card Parallax 3 -->
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="cp-3" tabindex="-1" role="dialog" aria-labelledby="cp-3Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="cp-3Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-parallax-3.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+				</div>
+			</div>
+			<!-- Cards Parallax -->
+
+			<div class="container">
+				<div class="row" style="margin-top: 100px;">
+					<div class="col-12 col-md-6 col-lg-6">
+						<!-- card-5 -->
+						<div class="card card-5">
+							<div class="d-flex justify-content-center">
+								<div class="brand_logo_container">
+									<img src="../img/computador-desktop.png" class="brand_logo" alt="Logo">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-md-12 col-lg-12">
+									<div class="conteudo-card-5">
+										<h2>Titulo</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eligendi suscipit nam architecto nostrum odio iste. Cumque consequuntur dolore voluptatem iste eum ipsa quisquam rem enim nihil tempore! Dicta, temporibus.</p>
+										<button type="submit" class="button_card-5" data-toggle="modal" data-target="#card5">Button</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- card-5 -->
+						 <!-- Modal -->
+						 <div class="modal fade" id="card5" tabindex="-1" role="dialog" aria-labelledby="card5Label" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card5Label">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-5.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- hover cards -->
+		<section class="hover-cards">
+			<div class="container">
+				<div class="row">
+					<!-- hover1 -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="hover-zoomin">
+							<a href="#" data-toggle="modal" data-target="#zoomin">
+								<img src="../img/card-hover-1.jpg" alt=""/>
+							</a>
+						</div>
+						<h4 class="text-center">Hover-ZoomIn</h4>
+						<!-- Modal -->
+						<div class="modal fade" id="zoomin" tabindex="-1" role="dialog" aria-labelledby="zoominLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="zoominLabel">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-zoomin.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!-- hover1 -->
+					<!-- hover2 -->
+					<div class="col-12 col-md-6 col-lg-3 hover-zoomout">
+						<div class="hover-zoomout">
+							<a href="#" data-toggle="modal" data-target="#zoomout">
+								<img src="../img/card-hover-2.jpg" alt=""/>
+							</a>
+						</div>
+						<h4 class="text-center">Hover-ZoomOut</h4>
+						<!-- Modal -->
+						<div class="modal fade" id="zoomout" tabindex="-1" role="dialog" aria-labelledby="zoomoutLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="zoomoutLabel">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-zoomuot.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!-- hover2 -->
+					<!-- hover3 -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="hover-blurout">
+							<a href="#" data-toggle="modal" data-target="#card-blurout">
+								<img src="../img/card-hover-3.jpg" alt=""/>
+								<h2><span><i class="fa fa-search"></i></span></h2>
+							</a>
+						</div>
+						  <h4 class="text-center">Hover-BlurOut</h4>
+						  <!-- Modal -->
+						<div class="modal fade" id="card-blurout" tabindex="-1" role="dialog" aria-labelledby="card-bluroutLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card-bluroutLabel">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-blurout.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!-- hover3 -->
+					<!-- hover4 -->
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="fall-item fall-effect">
+							<img src="../img/card-hover-4.jpg"/>
+							<div class="mask">
+								<h2>Hover Fall</h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+								<a href="#" class="btn btn-default" data-toggle="modal" data-target="#card-fall">Codigo</a>
+							</div>
+						</div>
+						  <h4 class="text-center">Hover-Fall</h4>
+						  <!-- Modal -->
+						<div class="modal fade" id="card-fall" tabindex="-1" role="dialog" aria-labelledby="card-fallLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header bg-dark">
+										<h5 class="modal-title text-white" id="card-fallLabel">Codigo fonte</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true" style="color: white;">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<embed src="../codigos-txt/cards/card-fall.txt" width="450" height="300">
+									</div>
+									<div class="modal-footer bg-dark">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<!-- hover4 -->
+				</div>
+			</div>
+		</section>
+		<!-- hover cards -->
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/* botoes */
+.botoes{
+	padding: 20px 0px;
+}
+
+/* btn 1 */
+.btn1 a{
+	text-decoration: none!important;
+	color: black;
+}
+.btn1 {
+	width: 150px;
+	height: 50px;
+	border: 1px solid #333;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 0;
+	transition: 1s;
+  }
+  
+  .btn1::before, .btn1::after {
+	position: absolute;
+	background: #eee;
+	z-index: -1;
+	transition: 1s;
+	content: '';
+  }
+  
+  .btn1::before {
+	height: 50px;
+	width: 130px;
+  }
+  
+  .btn1::after {
+	width: 150px;
+	height: 30px;
+  }
+  
+  .noselect {
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+  }
+  
+  .btn1:hover::before {
+	width: 0px;
+	background: #fff;
+  }
+  
+  .btn1:hover::after {
+	height: 0px;
+	background: #fff;
+  }
+  
+  .btn1:hover {
+	background: #fff;
+  }
+/* btn 1 */
+/* btn 2 */
+.btn2 {
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 2rem;
+}
+
+.btn2::before {
+	content: '';
+	position: absolute;
+	z-index: -2;
+	left: -50%;
+	top: -50%;
+	width: 200%;
+	height: 200%;
+	background-color: #399953;
+	background-repeat: no-repeat;
+	background-size: 50% 50%, 50% 50%;
+	background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+	background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+	animation: rotate 4s linear infinite;
+}
+
+.btn2::after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	left: 6px;
+	top: 6px;
+	width: calc(100% - 12px);
+	height: calc(100% - 12px);
+	background: white;
+	border-radius: 5px;
+}
+
+  @keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+/* btn 2 */
+/* btn 3 */
+.btn3 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn3.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn3:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/* btn 3 */
+/* btn 4 */
+a.btn4:link, a.btn4:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 15px 100px;
+	color: red;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.btn4:link:after, a.btn4:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.btn4:link:hover, a.btn4:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.btn4:link:hover:after, a.btn4:visited:hover:after {
+	height: 450%;
+}
+
+a.btn4.victoria-one {
+	border: 2px solid #D24D57;
+}
+a.btn4.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+/* btn 4 */
+/* botoes */

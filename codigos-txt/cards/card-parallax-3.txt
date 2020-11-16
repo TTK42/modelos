@@ -1,0 +1,82 @@
+HTML
+------
+<div class="card-parallax-3">
+    <div class="content3">
+        <h3 class="depth-8 text-white">HOVER</h3>
+        <p class="depth-4"><a href="#" class="btn_card_parallax">Button</a></p>
+    </div>
+</div>
+___________________________________
+
+CSS
+-----
+.card-parallax-3 {
+    transform: translateZ(0);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: 0.8s all ease;
+    will-change: transform;
+}
+
+.content3 {
+    padding: 50px;
+    margin: 25px;
+    border: 1px solid black;
+    text-align: center;
+    background-image: url(../img/alienware3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn_card_parallax{
+	background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 3px 25px;
+    text-decoration: none!important;
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.btn_card_parallax:hover{
+	background-color: white;
+	color: black;
+}
+
+.depth-1 { transform: translateZ(10px); }
+.depth-2 { transform: translateZ(20px); }
+.depth-3 { transform: translateZ(30px); }
+.depth-4 { transform: translateZ(40px); }
+.depth-5 { transform: translateZ(50px); }
+.depth-6 { transform: translateZ(60px); }
+.depth-7 { transform: translateZ(70px); }
+.depth-8 { transform: translateZ(80px); }
+.depth-9 { transform: translateZ(90px); }
+.depth-10 { transform: translateZ(100px); }
+___________________________________
+
+JS
+-----
+var card3 = $(".card-parallax-3");
+var parent = card3.parent();
+var fieldOfView = (innerWidth / innerHeight) * 16;
+
+$(card3).on("mouseenter",function(e) {  
+    $(card3).on("mousemove",function(e) {  
+
+        const {offsetX, offsetY} = e;
+
+        let X;
+        let Y;
+
+        X = ((offsetX - (card3.width()/2)) / 3) / 3;
+        Y = (-(offsetY - (card3.height()/2)) / 3) / 3;
+        card3.css("transform", "rotateY("+ X +"deg) rotateX("+ Y +"deg)");
+    });
+});
+
+$(card3).on("mouseleave",function(e) { 
+    //console.log('mouseleave');
+    card3.css("transform", "rotateY("+ 0 +"deg) rotateX("+ 0 +"deg)");
+});

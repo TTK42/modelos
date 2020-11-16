@@ -1,0 +1,40 @@
+HTML
+-----
+<div class="card card1 card1-imagem mb-4 mt-4">
+    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5">
+        <div>
+            <h3 class="card-title pt-2"><strong>Title</strong></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a class="btn_card1" href="#"><i class="fa fa-plus left"></i> Veja Mais</a>
+        </div>
+    </div>
+</div>
+______________________________________________
+
+CSS
+-----
+.card1-imagem{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(41, 41, 44, 0.5)), url('../img/background-1.jpg');
+	background-size: cover;
+}
+
+.card1{
+	box-shadow: -2px 3px 5px 1px grey;
+}
+
+.btn_card1 {
+	padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none!important;
+    transition: 0.7s;
+}
+
+.btn_card1:hover {
+    background-color: transparent;
+    border: 3px solid green;
+    color: white;
+}

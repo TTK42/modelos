@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Lorem</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/lorem.css">
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/scripts.js"></script>
+
+</head>
+<body>
+	<main>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-superior" aria-controls="menu-superior" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu-superior">
+					<a class="navbar-brand" href="#"><i class="fa fa-crosshairs fa-2x" style="color: white;"></i></a>
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link active" href="#">Lorem</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="links-uteis.html">Links</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="botoes.html">Botoes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sessoes.html">Sessoes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="cards.html">Cards</a>
+						</li>
+					</ul>
+				</div>
+			  </nav>
+		</header>
+
+		<section class="lorem">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<h1 class="text-center">Lorem</h1>
+						<div class="row">
+							<div class="offset-lg-10 col-lg-2">
+								<div class="copiado">
+									<div class="alert alert-primary" role="alert">
+										Copiado!
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-end"><button class="button-copy" onclick="copiar()"><span><i class="fa fa-file"></i></span></button></div>
+						<textarea class="lorem-textarea" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- nao utilizados 1 -->
+
+	<!-- <section class="parallax">
+		<div id="parallax"></div>
+	</section> -->
+
+	<!-- nao utilizados 1 -->
+
+	<script>
+		function copiar(){
+			var text = document.querySelector(".lorem-textarea").select();
+			document.execCommand('copy');
+			// alert('copiado');
+			document.querySelector(".copiado").style.display = "block";
+		}
+	</script>
+</body>
+</html>

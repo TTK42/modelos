@@ -1,0 +1,27 @@
+/* link uteis */
+.links-uteis{
+	padding: 50px 0px;
+	background-color: #f1ebeb;
+}
+.lista-links{
+	/* background-color: #0084fa; */
+	background: linear-gradient(236deg, rgba(212,213,213,1) 12%, rgba(171,166,166,1) 57%, rgba(212,213,213,1) 87%);
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: -2px 2px 0px 0px darkgrey;
+    transition: 0.7s all ease;
+}
+.lista-links:hover{
+	transform: scale(1.1);
+	box-shadow: -3px 4px 3px 1px darkgrey;
+}
+.lista-links a {
+	text-decoration: none!important;
+	color: black;
+}
+.lista-links a:hover {
+    color: black;
+}
+/* link uteis */

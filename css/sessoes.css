@@ -1,0 +1,80 @@
+.espaco-sessoes{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 2rem!important;
+}
+
+.btn-codigo{
+    background-color: coral;
+    padding: 10px 30px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none!important;
+}
+.btn-codigo:hover{
+    background-color: #d2d2d2;
+    color: black;
+}
+
+/* BACKGROUND 1*/
+.background-exemplo-1{
+	background: linear-gradient(-135deg, rgb(176 178 181) 10%, transparent), repeating-linear-gradient(45deg, rgb(193 194 195) -19%, rgb(144 138 138 / 60%) 5%, transparent 5%, transparent 10%);
+	background-color: rgb(0 0 0 / 25%);
+}
+/* BACKGROUND 1*/
+/* BACKGROUND 2*/
+.background-exemplo-2{
+	background: linear-gradient(-135deg, rgb(176 178 181) 10%, transparent), repeating-linear-gradient(-40deg, rgb(193 194 195) -19%, rgb(144 138 138 / 60%) 5%, transparent 5%, transparent 10%);
+	background-color: rgb(0 0 0 / 25%);
+}
+/* BACKGROUND 2*/
+/* BACKGROUND 3*/
+.background-exemplo-3{
+    border: 62px solid #dcdcdc;
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    background: #ffffff;
+    padding: 50px;
+}
+/* BACKGROUND 3*/
+/* BACKGROUND 4*/
+.background-exemplo-4{
+    background-image: linear-gradient(135deg, #267eff 50%, transparent 51%), linear-gradient(#f7f7f7,#f7f7f7 10px,#267eff 20px, #267eff);
+    background-size: 100%, 100% 14px;
+    padding: 50px;
+}
+.background-exemplo-4 h2, .background-exemplo-4 p{
+	color: white;
+}
+/* BACKGROUND 4*/
+/* BACKGROUND 5*/
+.background-exemplo-5{
+    background: linear-gradient(45deg, #000000 61%, transparent 50%), radial-gradient(#dbdbdd 4px, transparent 4px), radial-gradient(#dbdbdd 4px, transparent 4px), transparent;
+    background-size: 100%, 24px 24px, 24px 24px, 100%;
+    background-position: 0 0, -2px 6px, 10px 18px, 0 0;
+    padding: 50px;
+}
+.background-exemplo-5 h2, .background-exemplo-5 p{
+	color: white;
+}
+
+.background-exemplo-5 img{
+    border: 5px solid gray;
+}
+/* BACKGROUND 5*/
+/* BACKGROUND 6*/
+.background-exemplo-6{
+	background-image: linear-gradient(#f7f7f7, #f7f7f7 7px,#dbdbdd 7px,#dbdbdd);
+	background-size: 100% 14px;
+	padding: 50px;
+}
+/* BACKGROUND 6*/
+/* BACKGROUND 7*/
+.background-exemplo-7{
+	background-image: linear-gradient(315deg, #eec71a 50%, #000000 50%);
+	padding: 100px;
+}
+/* BACKGROUND 7*/

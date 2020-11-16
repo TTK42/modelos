@@ -1,0 +1,67 @@
+HTML
+-----
+<div class="card card-5">
+    <div class="d-flex justify-content-center">
+        <div class="brand_logo_container">
+            <img src="../img/computador-desktop.png" class="brand_logo" alt="Logo">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+            <div class="conteudo-card-5">
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eligendi suscipit nam architecto nostrum odio iste. Cumque consequuntur dolore voluptatem iste eum ipsa quisquam rem enim nihil tempore! Dicta, temporibus.</p>
+                <button type="submit" class="button_card-5">Button</button>
+            </div>
+        </div>
+    </div>
+</div>
+_________________________________________
+
+CSS
+-----
+.card-5{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: -6px 5px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+	border: 3px solid #000000!important;
+	background-color: lightgray!important;
+}
+
+.brand_logo_container{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+.conteudo-card-5{
+	text-align: center;
+	padding: 5px 0px;
+}
+
+.button_card-5 {
+    padding: 7px 50px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    background-color: gray;
+    color: black;
+    border: 2px solid black;
+}
+.button_card-5:hover {
+	background-color: darkgray;
+}

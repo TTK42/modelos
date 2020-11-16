@@ -1,0 +1,47 @@
+body, html{
+	height: 100%;
+	width: 100%;
+  }
+/* Lorem */
+.lorem{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/lorem.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+	padding-bottom: 140px;
+
+}
+.lorem h1{
+	margin-bottom: 50px!important;
+	color: white;
+}
+.lorem-textarea{
+	width: 100%;
+    padding: 10px 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #4c4949;
+    box-shadow: 1px 1px 1px #999;
+	background: rgba(255, 255, 255, 0.5);
+}
+.copiado{
+	display: none;
+}
+/* Lorem */
+
+
+/* nao utilizados */
+/*nao utilizados 1*/
+/* #parallax{
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background-image: url('../img/depth-3.png'), url('../img/depth-2.png'), url('../img/depth-1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: 50% 50%;
+	background-color: #000;
+} */
+
+/* nao utilizados 1*/
+/* nao utilizados */

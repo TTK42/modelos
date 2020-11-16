@@ -1,0 +1,53 @@
+HTML
+-----
+<div class="card card2 border border-dark">
+    <!-- Card imagem -->
+    <div class="">
+        <img class="card-img-top" src="../img/hamburger.jpg" alt="Card image cap">
+    </div>
+    <!-- Card conteudo -->
+    <div class="card-body">
+        <!-- Titulo -->
+        <h4 class="card-title font-weight-bold"><a>Restaurant</a></h4>
+        <!-- Avaliacao -->
+        <ul class="list-unstyled list-inline rating mb-0">
+            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star-half"></i></li>
+            <li class="list-inline-item"><p class="text-muted">4.5</p></li>
+        </ul>
+        <p class="mb-2">$ • American, Restaurant</p>
+        <!-- Texto -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <!-- Botao -->
+        <a href="#" class="btn-card2 text-center">Button</a>
+    </div>
+</div>
+_____________________________________________
+
+CSS
+-----
+.card2 {
+	transition: 0.5s all ease;
+}
+
+.card2:hover {
+	transform: scale(1.1);
+}
+
+.btn-card2 {
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none!important;
+    display: block;
+}
+
+.btn-card2:hover {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+}
