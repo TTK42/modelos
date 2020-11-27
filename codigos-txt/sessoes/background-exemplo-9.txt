@@ -1,0 +1,19 @@
+HTML
+-----
+<section class="background-exemplo-9">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="text-white">TITULO 9</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn-codigo">Codigo</a>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+_____________________________________________________________
+
+CSS
+-----

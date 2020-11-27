@@ -1,0 +1,41 @@
+HTML
+-----
+<section class="background-exemplo-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="text-white">TITULO 8</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <a href="#" class="btn-codigo">Codigo</a>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+_____________________________________________________________
+
+CSS
+-----
+.background-exemplo-8{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-image: url(../img/background-exemplo-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+.background-exemplo-8::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(65deg, rgba(0, 0, 0, 0.74) 55%, rgba(11, 71, 105,0.0) 45%);
+    display: block;
+}

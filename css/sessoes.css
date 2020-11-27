@@ -78,3 +78,31 @@ p{
 	padding: 100px;
 }
 /* BACKGROUND 7*/
+/* BACKGROUND 8*/
+.background-exemplo-8{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-image: url(../img/background-exemplo-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+.background-exemplo-8::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(65deg, rgba(0, 0, 0, 0.74) 55%, rgba(11, 71, 105,0.0) 45%);
+    display: block;
+}
+
+.modal-backdrop{
+    z-index: -1;
+}
+/* BACKGROUND 8*/
