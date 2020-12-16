@@ -634,3 +634,52 @@
  }
   /* hover4 */
 /* hover cards */
+/* card */
+.card2 {
+	transition: 0.5s all ease;
+	margin: 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card2 img {
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2px;
+	background-color: white;
+}
+
+.card2 h4, .card2 p {
+	text-align: center;
+}
+
+.card2:hover {
+	transform: scale(1.1);
+}
+
+.btn-card2 {
+	background-color: gray;
+	color:white;
+	padding: 15px 25px;
+	border: 1px solid gray;
+	display: block;
+	border-radius: 5px;
+	text-decoration: none!important;
+	transition: 0.5s all ease;
+	text-align:center;
+	margin: 20px 0px;
+}
+
+.btn-card2:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+/* card */
