@@ -1,0 +1,144 @@
+HTML
+--------
+<div class="card-growth">
+    <div class="face face1">
+        <div class="content">
+            <div class="icon">
+                <!-- <i class="fa fa-twitter-square" aria-hidden="true"></i> -->
+                <img src="http://projetos.agenciaalper.com.br/growht2021/wp-content/uploads/2021/02/eye-scan.png" alt="visao">
+                <h5>VISÃO</h5>
+            </div>
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, est. Esse id iure neque illo doloribus similique quae nisi veritatis consequuntur facere.</p>
+        </div>
+    </div>
+</div>
+
+CSS
+-------
+.growth-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.growth-cards .card-growth {
+    position: relative;
+    border-radius: 10px;
+}
+
+.growth-cards .card-growth .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.growth-cards .card-growth:nth-child(1) .icon {
+    background: #e07768;
+}
+
+.growth-cards .card-growth:nth-child(2) .icon {
+    background: #6eadd4;
+}
+
+.growth-cards .card-growth:nth-child(3) .icon {
+    background: #4aada9;
+}
+
+
+.growth-cards .card-growth .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+	color: #fff;
+	width: 50%;
+}
+
+.growth-cards .card-growth .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.growth-cards .card-growth .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.growth-cards .card-growth:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0px);
+}
+
+.growth-cards .card-growth .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.growth-cards .card-growth:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.growth-cards .card-growth .face.face1 .content i{
+    max-width: 100px;
+}
+
+.growth-cards .card-growth .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.growth-cards .card-growth:hover .face.face2{
+    transform: translateY(0);
+}
+
+.growth-cards .card-growth .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.growth-cards .card-growth .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 

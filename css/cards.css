@@ -634,3 +634,308 @@
  }
   /* hover4 */
 /* hover cards */
+/* amare */
+.img_organico{
+    transform: scale(0.5);
+}
+.card-kombucha {
+    border-radius: 25px;
+	box-shadow: -5px 5px 10px rgba(0,0,0,.3), 2px 1px 2px 0px rgba(0,0,0,.1);
+}
+.card-kombucha:hover {
+    box-shadow: -10px 10px 20px rgba(0,0,0,.3), 4px 3px 5px rgba(0,0,0,.1);
+}
+.card-head-clorella {
+    position: relative;
+	height: 252px;
+	background: #1f4402;
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1f4402 8%, #55c812 83%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #1f4402 8%, #55c812 83%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #1f4402 8%, #55c812 83%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1f4402', endColorstr='#55c812', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+	border-radius: 25px 25px 0 0;
+}
+.card-logo {
+	width: 100px;
+	margin-top: -20px;
+}
+.product-img {
+	position: absolute;
+	left: 0;
+	margin-top: -10%;
+	margin-left: 50%;
+	width: 250px;
+}
+.product-detail {
+	padding: 0 20px;
+	font-size: 13px;
+	color: #fff;
+}
+.product-detail h2 {
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.card-body-amare {
+	height: 255px;
+	background: #fff;
+	border-radius: 0 0 25px 25px;
+	text-align: center;
+}
+.product-title {
+	padding: 20px 20px 5px 20px;
+	display: block;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.badge {
+	position: relative;
+	font-size: 10px;
+	font-weight: 300;
+	color: #fff;
+	background: #11e95b;
+	padding: 2px 5px;
+	border-radius: 4px;
+	top: -2px;
+	margin-left: 5px;
+}
+.product-caption {
+	display: block;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.product-size h4 {
+	font-size: 16px;
+	padding: 0 21px;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+a.btn_comprar{
+	text-decoration:none!important;
+}
+.btn_comprar{
+	padding: 20px 50px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	margin: 20px;
+	height: 55px;
+	text-align:center;
+	border: none;
+	background-size: 300% 100%;
+	border-radius: 50px;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	margin: auto;
+}
+.btn_comprar.color-1{
+	background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+	box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.zero{
+    padding: 60px 0px
+}
+.titulo_texto {
+	width: 100%;
+	margin: 1% auto;
+}
+.titulo_divisor {
+  color: #969b7d;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin:0;
+  font-weight: 400;
+  font-family: monospace;
+}
+.titulo_divisor span {
+  background-color: #fff;
+  padding: 0 0.3em;
+}
+.titulo_divisor:before {
+	content:"";
+	display: block;
+	position: absolute;
+	z-index:-1;
+	top: 50%;
+	width: 100%;
+	border-bottom: 3px solid #969b7d;
+}
+.shadow {
+	color: #fff;
+	font-weight: 700;
+	text-shadow:4px 4px #bdbfbe, -2px 4px #bdbfbe, -3px -2px #bdbfbe, 5px -1px #bdbfbe;
+	line-height: 0.8em;
+	letter-spacing: 0.1em;
+	transform: scaleY(0.7);
+	-webkit-transform: scaleY(0.7);
+	-moz-transform: scaleY(0.7);
+	margin:0;
+	text-align: center;
+}
+.text1 {
+    font-size: 50px;
+}
+.text2 {
+    font-size: 50px;
+}
+.paragrafo{
+    margin: 20px 0px;
+    color: #969b7d!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* amare */
+/* card growth */
+.growth-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.growth-cards .card-growth {
+    position: relative;
+    border-radius: 10px;
+}
+
+.growth-cards .card-growth .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.growth-cards .card-growth:nth-child(1) .icon {
+    background: #e07768;
+}
+
+.growth-cards .card-growth:nth-child(2) .icon {
+    background: #6eadd4;
+}
+
+.growth-cards .card-growth:nth-child(3) .icon {
+    background: #4aada9;
+}
+
+
+.growth-cards .card-growth .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+	color: #fff;
+	width: 50%;
+}
+
+.growth-cards .card-growth .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.growth-cards .card-growth .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.growth-cards .card-growth:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0px);
+}
+
+.growth-cards .card-growth .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.growth-cards .card-growth:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.growth-cards .card-growth .face.face1 .content i{
+    max-width: 100px;
+}
+
+.growth-cards .card-growth .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.growth-cards .card-growth:hover .face.face2{
+    transform: translateY(0);
+}
+
+.growth-cards .card-growth .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.growth-cards .card-growth .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 
+
+.btn_codigo_growth{
+	background-color: coral;
+    padding: 10px 30px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none!important;
+	display: inline-block;
+	height: 50%;
+	margin-top:100px;
+}
+.btn_codigo_growth:hover{
+    background-color: #d2d2d2;
+    color: black;
+}
+/* card growth */

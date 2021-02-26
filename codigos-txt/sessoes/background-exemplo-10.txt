@@ -1,0 +1,40 @@
+HTML
+-----
+<section class="background-exemplo-8 espaco-sessoes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>titulo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sed deserunt temporibus assumenda aut a quaerat corporis! </p>
+                <a href="#" class="btn-codigo" data-toggle="modal" data-target="#bg10">Codigo</a>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</section>
+_____________________________________________________________
+
+CSS
+-----
+.background-exemplo-10:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(65deg, rgba(0, 0, 0, 0.74) 55%, rgba(11, 71, 105,0.0) 45%);
+    display: block;
+}
+.background-exemplo-10{
+	position: relative;
+	background-image: url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/novopiso-decks-modulares-em-curitiba.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+	background-attachment: fixed;
+}
+.background-exemplo-10 h2, .background-exemplo-10 p{
+	color:white;
+}

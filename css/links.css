@@ -1,7 +1,10 @@
 /* link uteis */
 .links-uteis{
-	padding: 50px 0px;
-	background-color: #f1ebeb;
+	/* padding: 50px 0px; */
+	background-color: #aaaaaa;
+}
+.links-uteis h1{
+	margin: 50px 0;
 }
 .lista-links{
 	/* background-color: #0084fa; */
