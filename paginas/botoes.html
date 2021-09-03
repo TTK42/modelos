@@ -13,7 +13,7 @@
 
 	<script src="../js/jquery.js"></script>
 	<script src="../js/bootstrap.js"></script>
-	<script src="../js/teste.js"></script>
+
 
 </head>
 <body>
@@ -44,6 +44,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="cards.html">Cards</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="timeline.html">Timeline</a>
+                        </li>
 						<li class="nav-item">
 							<a class="nav-link" href="outros.html">Outros</a>
 						</li>
@@ -275,19 +278,5 @@
 			</div>
 		</section>
 	</main>
-	
-	<script>
-		$(document).ready(function() {
-			if (sessionStorage.getItem("sessao")) {
-			// Restaura o conteúdo da caixa de texto
-			//field.value = sessionStorage.getItem("autosave");
-		} else{
-
-			$('#btn8').modal('show');
-		}
-
-	})
-		//document.getElementById("result").innerHTML = sessionStorage.getItem("sessao");
-	</script>
 </body>
 </html>

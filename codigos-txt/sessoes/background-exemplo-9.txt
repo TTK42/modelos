@@ -1,0 +1,84 @@
+HTML
+---------
+<div class="cards-pisos">
+    <div class="col-sm-3">
+        <div class="card-pisos card-pisos-macico">
+            <a href="#"><h3>MADEIRA<br /> MACIÇA</h3></a>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-pisos card-pisos-natural">
+            <a href="#"><h3>MADEIRA<br /> NATURAL</h3></a>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-pisos card-pisos-estruturados">
+            <a href="#"><h3>PISOS<br /> ESTRUTURADOS</h3></a>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card-pisos card-pisos-decks">
+            <a href="#"><h3>DECKS<br /> MODULARES</h3></a>
+        </div>
+    </div>
+</div>
+
+CSS
+-----------
+.cards-pisos .col-sm-3 {
+	padding: 0!important;
+}
+.cards-pisos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-pisos {
+	height: 500px;
+	text-align: center;
+	background-size: cover;
+	background-position: bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10px;
+}
+.card-pisos a {
+	color: white;
+	border-bottom: 1px solid #fff;
+}
+.card-pisos a:hover {
+	text-decoration: none;
+}
+.card-pisos h3 {
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase !important;
+	letter-spacing: 4px;
+	font-size: 30px;
+}
+.card-pisos-macico {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-madeira-macica-em-curitiba.jpg);
+}
+.card-pisos-macico:hover {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-madeira-macica-em-curitiba.jpg);
+}
+.card-pisos-natural {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-madeira-natural-em-curitiba-novopiso.jpg);
+}
+.card-pisos-natural:hover {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-madeira-natural-em-curitiba-novopiso.jpg);
+}
+.card-pisos-estruturados {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-estruturado-em-curitiba.jpg);
+}
+.card-pisos-estruturados:hover {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/piso-estruturado-em-curitiba.jpg);
+}
+.card-pisos-decks {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/deck-modular-em-curitiba-novopiso.jpg);
+}
+.card-pisos-decks:hover {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2)), url(http://projetos.agenciaalper.com.br/novopiso2021/wp-content/uploads/2021/02/deck-modular-em-curitiba-novopiso.jpg);
+}
