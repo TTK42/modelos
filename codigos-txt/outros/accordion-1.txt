@@ -6,6 +6,7 @@ HTML
             <div id="accordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
+<<<<<<< HEAD
                     <h5 class="mb-0 text-center">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Por Amperagem
@@ -71,6 +72,130 @@ HTML
                                     <div class="card-amp">
                                         <a href="#">Opção</a>
                                     </div>
+=======
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            BATERIA AUTOMOTIVA
+                            </button>
+                        </h5>
+                    </div>
+                
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">AMPERAGEM</a>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">MARCA</a>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card card-body">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">40Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">45Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">48Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">50Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">60Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">70Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">72Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">80Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">92Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">95Ah</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card-amp">
+                                                        <a href="#">105Ah</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">ACDelco</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Heliar</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Maxion</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Moura</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Pioneiro</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Strada</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Zetta</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+>>>>>>> ab4f89fde9a85c399c778bc68157ab6480ef7e06
                                 </div>
                             </div>
                         </div>
@@ -79,14 +204,21 @@ HTML
                 </div>
                 <div class="card">
                     <div class="card-header" id="headingTwo">
+<<<<<<< HEAD
                     <h5 class="mb-0 text-center">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Por Marca
+=======
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        BATERIA ESTACIONÁRIA
+>>>>>>> ab4f89fde9a85c399c778bc68157ab6480ef7e06
                         </button>
                     </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
+<<<<<<< HEAD
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-2">
@@ -118,6 +250,121 @@ HTML
                                     <div class="card-amp">
                                         <a href="#">Opção</a>
                                     </div>
+=======
+                        <p>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">AMPERAGEM</a>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">MARCA</a>
+                        </p>
+                            <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">40Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">45Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">48Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">50Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">60Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">70Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">72Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">80Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">92Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">95Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">105Ah</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">ACDelco</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Heliar</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Maxion</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Moura</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Pioneiro</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Strada</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Zetta</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+>>>>>>> ab4f89fde9a85c399c778bc68157ab6480ef7e06
                                 </div>
                             </div>
                         </div>
@@ -126,14 +373,21 @@ HTML
                 </div>
                 <div class="card">
                     <div class="card-header" id="headingThree">
+<<<<<<< HEAD
                     <h5 class="mb-0 text-center">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Por Tipo
+=======
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        BATERIA START STOP
+>>>>>>> ab4f89fde9a85c399c778bc68157ab6480ef7e06
                         </button>
                     </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
+<<<<<<< HEAD
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-4">
@@ -151,6 +405,122 @@ HTML
                                         <a href="#">Opção 3</a>
                                     </div>
                                 </div>
+=======
+                        <p>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample5">AMPERAGEM</a>
+                            <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample6">MARCA</a>
+                        </p>
+                            <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">40Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">45Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">48Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">50Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">60Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">70Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">72Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">80Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">92Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">95Ah</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">105Ah</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample6">
+                                <div class="card card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">ACDelco</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Heliar</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Maxion</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Moura</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Pioneiro</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Strada</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="card-amp">
+                                                    <a href="#">Zetta</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+>>>>>>> ab4f89fde9a85c399c778bc68157ab6480ef7e06
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosaico</title>
+
+    <style>
+        #grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #grid img{
+            width: 200px;
+            height: auto;
+            border: 1px solid black;
+            padding: 3px;
+        }
+        .tamanho1{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            height:auto;
+        }
+        .tamanho1 img{
+            width:100%;
+            height:100%;
+        }
+        .tamanho2{
+            display: flex;
+            justify-content: center;
+        }
+        .tamanho2 img{
+            width:100%;
+            height:100%;
+        }
+        .tamanho3{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            height:auto;
+        }
+        .tamanho3 img{
+            width: 20rem!important;
+            height: 8rem!important;
+        }
+        .subtamanho{
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+        }
+        .hover-blurout a {
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        .hover-blurout-2 a {
+            display: block;
+            position: relative;
+        }
+        .hover-blurout-3 a {
+            display: block;
+            position: relative;
+        }
+        .hover-blurout img {
+            width: 100%;
+            height: auto;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+        .hover-blurout-2 img {
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+        .hover-blurout-3 img {
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+        .hover-blurout:hover img {
+            -webkit-transform: scale(0.95);
+            -moz-transform: scale(0.95);
+            -o-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+            /*Blur Filtr*/
+            -webkit-filter: grayscale(0.6) blur(1px);
+            -moz-filter: grayscale(0.6) blur(1px);
+            -o-filter: grayscale(0.6) blur(1px);
+            -ms-filter:progid:DXImageTransform.Microsoft.Blur(pixelRadius=2);
+            filter: progid:DXImageTransform.Microsoft.blur(pixelradius=2);
+            filter: grayscale(0.6) blur(2px);
+        }
+        .hover-blurout-2:hover img {
+            -webkit-transform: scale(0.95);
+            -moz-transform: scale(0.95);
+            -o-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+            /*Blur Filtr*/
+            -webkit-filter: grayscale(0.6) blur(1px);
+            -moz-filter: grayscale(0.6) blur(1px);
+            -o-filter: grayscale(0.6) blur(1px);
+            -ms-filter:progid:DXImageTransform.Microsoft.Blur(pixelRadius=2);
+            filter: progid:DXImageTransform.Microsoft.blur(pixelradius=2);
+            filter: grayscale(0.6) blur(2px);
+        }
+        .hover-blurout-3:hover img {
+            -webkit-transform: scale(0.95);
+            -moz-transform: scale(0.95);
+            -o-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+            /*Blur Filtr*/
+            -webkit-filter: grayscale(0.6) blur(1px);
+            -moz-filter: grayscale(0.6) blur(1px);
+            -o-filter: grayscale(0.6) blur(1px);
+            -ms-filter:progid:DXImageTransform.Microsoft.Blur(pixelRadius=2);
+            filter: progid:DXImageTransform.Microsoft.blur(pixelradius=2);
+            filter: grayscale(0.6) blur(2px);
+        }
+        .hover-blurout a h4 {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 100%;
+            width: 100%;
+            padding: 45% 0px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.3);
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+        .hover-blurout-2 a h4 {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 100%;
+            width: 100%;
+            padding: 45% 0px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.3);
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+        .hover-blurout:hover a h4 {
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: white;
+        }
+        .hover-blurout-2:hover a h4 {
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: white;
+        }
+        .hover-blurout-3 a h4 {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -7.5rem;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 50%;
+            width: 158%;
+            padding: 15% 0px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.3);
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+        .hover-blurout-3:hover a h4 {
+            -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1;
+            color: white;
+        }
+        h4{
+            opacity: 1!important;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            #grid img{
+                width: 100px;
+                height: auto;
+            }
+            #img5-a{
+                height: 14rem!important;
+            }
+            #div-img7{
+                margin-top: 7rem!important;
+            }
+            #img7{
+                height: 10rem!important;
+            }
+            .tamanho3 img {
+                width: 13rem!important;
+                height: 6rem!important;
+                margin-left: -1!important;
+            }
+            .hover-blurout-3 a h4{
+                left: -7.5rem;
+                width: 135%;
+                padding: 15% 0px;
+            }
+            .hover-blurout-3 a{
+                width: 10rem;
+                left: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <span class="tamanho1">
+            <div class="hover-blurout">
+                <a href="#">
+                    <img src="img/lillo/cadeira-elevatoria-em-curitiba.jpg" alt="Cadeira Elevatória" title="Cadeira Elevatória">
+                    <h4>Cadeira Elevatória</h4>
+                </a>
+            </div>
+            <div class="hover-blurout">
+                <a href="#">
+                    <img src="img/lillo/grupo-positivo-em-curitiba.jpg" alt="Grupo Positivo" title="Grupo Positivo">
+                    <h4>Grupo Positivo</h4>
+                </a>
+            </div>
+        </span>
+        <span class="tamanho2">
+            <div class="subtamanho">
+                <div class="hover-blurout">
+                    <a href="#">
+                        <img src="img/lillo/grupo-positivo-em-curitiba.jpg" alt="frisia-cooperativa-agroindustrial-em-curitiba" title="frisia-cooperativa-agroindustrial-em-curitiba">
+                        <h4>Frisia Cooperativa Agroindustrial</h4>
+                    </a>
+                </div>
+                <div class="hover-blurout">
+                    <a href="#">
+                        <img src="img/lillo/rubens-brustolin-em-curitiba.jpg" alt="rubens-brustolin-em-curitiba" title="rubens-brustolin-em-curitiba">
+                        <h4>Rubens Brustolin</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="hover-blurout">
+                <a id="img5-a" href="#" style="height: 26.5rem;">
+                    <img id="img5" src="img/lillo/comtudo-materiais-para-construcao-em-curitiba.jpg" style="height: 97%;" alt="comtudo-materiais-para-construcao" title="comtudo-materiais-para-construcao">
+                    <h4>Comtudo Materiais de Contrução</h4>
+                </a>
+            </div>
+            <div class="subtamanho">
+                <div class="hover-blurout">
+                    <a href="#">
+                        <img src="img/lillo/empresa-brasileira-de-correios-e-telegrafos-em-curitiba.jpg" alt="empresa-brasileira-de-correios-e-telegrafos-em-curitiba" title="empresa-brasileira-de-correios-e-telegrafos-em-curitiba">
+                        <h4>Empresa Brasileira de Correios e Telegrafos</h4>
+                    </a>
+                </div>
+                <div class="hover-blurout" id="div-img7" style="position: absolute;margin-top: 13rem;">
+                    <a href="#">
+                        <img id="img7" src="img/lillo/casa-cor-em-curitiba.jpg" style="height: 18rem;" alt="casa-cor-em-curitiba" title="casa-cor-em-curitiba">
+                        <h4>Casa Cor</h4>
+                    </a>
+                </div>
+            </div>
+        </span>
+        <span class="tamanho3">
+            <div class="hover-blurout-3">
+                <a href="#">
+                    <img src="img/lillo/construtora-san-remo-em-curitiba.jpg" style="margin-left:-7.5rem;" alt="construtora-san-remo-em-curitiba" title="construtora-san-remo-em-curitiba">
+                    <h4>Construtora San Remo</h4>
+                </a>
+            </div>
+        </span>
+    </div>
+</body>
+</html>
